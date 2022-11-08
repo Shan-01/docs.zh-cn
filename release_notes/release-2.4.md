@@ -83,7 +83,7 @@
 
 ### 行为变更
 
-默认开启 Page Cache，Cache Size 为系统内存大小的 20% 。
+默认关闭 Page Cache，Cache Size 为系统内存大小的 20% 。
 
 ### 其他
 
