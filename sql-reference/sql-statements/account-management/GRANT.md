@@ -64,7 +64,7 @@
 - `db.*`：指定数据库及库中所有表。
 - `db.tbl`：指定数据库下的指定表。
 
-> 说明：当使用`db.*` 或 `db.tbl` 格式时，指定数据库和指定表可以是不存在的数据库和表。
+> 说明：当使用 `db.*` 或 `db.tbl` 格式时，指定数据库和指定表可以是不存在的数据库和表。
 
 ### resource_name
 
@@ -73,11 +73,11 @@
 - `*`：所有资源。
 - `resource`：指定资源。
 
-> 说明：当使用`resource` 格式时，指定资源可以是不存在的资源。
+> 说明：当使用 `resource` 格式时，指定资源可以是不存在的资源。
 
 ### user_identity
 
-该参数由两部分组成：`user_name` 和 `host`。 `user_name` 表示用户名。`host` 表示用户的主机地址，可以不指定，也可以指定为域名。如不指定，host 默认值为 `%`，表示该用户可以从任意 host 连接 StarRocks。如指定 `host` 为域名，权限的生效时间可能会有 1 分钟左右的延迟。`user_identity` 必须是使用 CREATE USER 语句创建的。
+该参数由两部分组成：`user_name` 和 `host` 。`user_name` 表示用户名。`host` 表示用户的主机地址，可以不指定，也可以指定为域名。如不指定，host 默认值为 `%`，表示该用户可以从任意 host 连接 StarRocks。如指定 `host` 为域名，权限的生效时间可能会有 1 分钟左右的延迟。`user_identity` 必须是使用 CREATE USER 语句创建的。
 
 ### role_name
 
