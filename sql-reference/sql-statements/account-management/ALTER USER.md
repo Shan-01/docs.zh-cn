@@ -11,7 +11,7 @@ ALTER USER 命令用于更改用户信息。
 ALTER USER user_identity [auth_option];
 
 -- 参数说明
-user_identity:'user_name'@'host'。
+user_identity:'user_name'@'host'
 
 auth_option: {
 IDENTIFIED BY 'auth_string'
@@ -27,7 +27,7 @@ IDENTIFIED WITH auth_plugin AS 'auth_string'
 
 2. **auth_option**
 
-    指定用户的认证方式，目前支持 `mysql_native_password` 和 `authentication_ldap_simple`。
+    指定用户的认证方式，目前支持 `mysql_native_password` 和 `authentication_ldap_simple` 。
 
 ## 示例
 
