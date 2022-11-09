@@ -27,7 +27,7 @@ IDENTIFIED WITH auth_plugin AS 'auth_string'
 
 2. **auth_option**
 
-    指定用户的认证方式，目前支持 `mysql_native_password` 和 `authentication_ldap_simple` 。
+    指定用户的认证方式，目前支持 `mysql_native_password` 和 `authentication_ldap_simple`。
 
 ## 示例
 
