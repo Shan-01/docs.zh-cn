@@ -441,7 +441,7 @@ curl -XPOST http://be_host:http_port/api/update_config?configuration_item=value
 
 ## Broker 配置项
 
-Broker 配置项暂不支持在线修改，您需要在 **broker.conf** 中修改并重启 BE 服务。
+Broker 配置项暂不支持在线修改，您需要在 **broker.conf** 中修改并重启 broker 服务。
 
 | 配置项 | 默认值 | 单位 | 描述 |
 | ------------------------- | ------------------ | ------ | ------------------------------------------------------------ |
